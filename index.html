@@ -491,39 +491,76 @@
 
                   <!-- col -->
                   <div class="col-lg-12">
- <div class="container">
-              <h1> My Hobby</h1>
+                    <style>
+                      .gallery-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+.gallery-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.2s;
+}
+
+.gallery-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery-card h5 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.gallery-card p {
+  font-size: 14px;
+  color: #555;
+}
+</style>
+<div class="container">
+  <h1>My Hobby</h1>
+
+  <div class="swiper-container art-hobby-slider" style="overflow: visible;">
+    <div class="swiper-wrapper">
+
+      <!-- card 1 -->
+      <div class="swiper-slide">
+        <div class="gallery-card">
+          <img class="gallery-img" src="img/baca buku.jpg" alt="Membaca Buku">
+          <h5>Membaca Buku</h5>
+          <p>Membaca buku adalah aktivitas yang memperluas wawasan, melatih fokus, dan meningkatkan imajinasi. Kegiatan ini memberikan hiburan sekaligus pengetahuan baru.</p>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div class="swiper-slide">
+        <div class="gallery-card">
+          <img class="gallery-img" src="img/bersepeda.jpg" alt="Bersepeda">
+          <h5>Bersepeda</h5>
+          <p>Bersepeda menyenangkan dan menyehatkan. Selain itu, hobi ini membantu menjaga kebugaran tubuh sambil menikmati suasana alam.</p>
+        </div>
+      </div>
+
+      <!-- card 3 -->
+      <div class="swiper-slide">
+        <div class="gallery-card">
+          <img class="gallery-img" src="img/memasak.jpg" alt="Memasak">
+          <h5>Memasak</h5>
+          <p>Memasak adalah hobi yang melatih kreativitas dan memberikan kepuasan ketika hasil masakan dinikmati bersama keluarga atau teman.</p>
+        </div>
+      </div>
+
+      <!-- Tambah card lain di sini -->
+
+    </div>
   </div>
-  <!-- title frame end -->
 </div>
-<!-- section title end -->
 
-                  </div>
-                  <!-- col end -->
-
-                  <!-- col -->
-                  <div class="col-lg-12">
-
-                    <!-- slider container -->
-                    <div class="swiper-container art-testimonial-slider" style="overflow: visible">
-                      <!-- slider wrapper -->
-                      <div class="swiper-wrapper">
-                        <!-- slide -->
-                        <div class="swiper-slide">
-
-                          <!-- testimonial -->
-                          <div class="art-a art-testimonial">
-                            <!-- testimonial body -->
-                            <div class="testimonial-body">
-                              <!-- photo -->
-                              <img class="art-testimonial-face" src="img/baca buku.jpg" alt="face">
-                              <!-- name -->
-                              <h5>Membaca Buku</h5>
-                              <div class="art-el-suptitle mb-15"></div>
-                              <!-- text -->
-                              <div class="mb-15">Membaca buku adalah aktivitas yang memperluas wawasan, melatih fokus, dan meningkatkan imajinasi. Kegiatan ini memberikan hiburan sekaligus pengetahuan baru.</div>
-                            </div>
-                            <!-- testimonial body end -->
                             <!-- testimonial footer -->
                             <div class="art-testimonial-footer">
                               <div class="art-left-side">
